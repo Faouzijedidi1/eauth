@@ -1,0 +1,29 @@
+{
+    "name": "etnos/eauth",
+    "version": "1.1.1",
+    "description": "Outdare Authentication Package",
+    "authors": [
+        {
+            "name": "Outdare Development Team",
+            "email": "hello@outdare.co"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": "4.2.*|5.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/models",
+            "src/controllers",
+            "src/seeds",
+            "src/middleware"
+        ],
+        "psr-0": {
+            "Outdare\\Auth\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
